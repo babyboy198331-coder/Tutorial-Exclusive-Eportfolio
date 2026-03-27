@@ -203,7 +203,13 @@ nav {
 .project__wrapper {
     position: relative;
     border-radius: 20px;
-    box-shadow: o 20px 80px 0 rgb(0, 0, 0, 0.45)
+    box-shadow: o 20px 80px 0 rgb(0, 0, 0, 0.45);
+    overflow: hidden;
+}
+
+.project__wrapper:hover .project__description {
+    opacity: 1;
+    transform: translateY(-50%)
 }
 
 .project__description {
@@ -224,3 +230,22 @@ nav {
     background-color: #1c1d25;
     opacity: 0.7;
 }
+
+.project__description--sub-title{
+    margin-top: 8px;
+}
+
+.project__description--title {
+    font-size: 40px;
+}
+
+.project__description--link {
+    color: white;
+    font-size: 20px;
+    margin-right: 16px;
+}
+
+.project__descriptio--para {
+    margin: 16px 0;
+}
+
