@@ -216,7 +216,7 @@ nav {
     position: absolute;
     top: 50%;
     left: 90px;
-    transform: translateY(100%);
+    transform: translateY(-50%);
     opacity: 0;
     transition: opacity 300ms, transform 450ms ease;
     color: white;
