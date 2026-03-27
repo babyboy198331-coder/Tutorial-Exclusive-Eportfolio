@@ -67,7 +67,7 @@ line-height: 1;
     position: relative;
 }
 
-.link__hover-effect:after {
+.link__hover-effect::after {
     content: "";
     bottom: -3px;
     height: 3px;
@@ -77,15 +77,15 @@ line-height: 1;
     transition: all 300ms ease;
 }
 
-.link__hover-effect--white:after {
+.link__hover-effect--white::after {
     background-color: #fff
 }
 
-.link__hover-effect--black:after {
+.link__hover-effect--black::after {
     background-color: black;
 }
 
-.link__hover-effect:hover:after {
+.link__hover-effect:hover::after {
     left: 0;
     width: 100%;
 }
