@@ -251,11 +251,11 @@ nav {
 }
 
 .modal__language {
-    width: 20%;
-    padding: 16px;
+    width: 50%;
+    padding: 24px;
     position: relative;
     display: flex;
-    flex-direction: center;
+    flex-direction: row;
     align-items: center;
     transition: all 300ms ease;
 }
