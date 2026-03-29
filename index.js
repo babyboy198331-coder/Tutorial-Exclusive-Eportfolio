@@ -12,8 +12,9 @@
         'user_cbM7V2aKMo5f0HbPc'
  )      .then(() => {
         console.log('this worked1')
-    })
+    },500);
 
-    const loading = document.querySelector('modal__overlay--loading');
-    const success = document.querySelector('modal__overlay--success');
-    loading.classList += " modal__overlay--visible"}
+    const loading = document.querySelector('.modal__overlay--loading');
+    const success = document.querySelector('.modal__overlay--success');
+    loading.classList += " modal__overlay--visible"
+  }
