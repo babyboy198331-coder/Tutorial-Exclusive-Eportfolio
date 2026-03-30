@@ -282,10 +282,18 @@ nav {
     flex-direction: column;
     justify-content: center;
     position: relative;
+    transition: all 300ms ease-in;
+}
+
+.modal__open .modal__about,
+.modal__open .modal__contact
+ {
+    transform: translateX(0%);
 }
 
 .modal__about {
     background-color: rgb(245, 245, 245);
+    transform: translateX(-110%);
 }
 
 .modal__languages {
@@ -326,6 +334,7 @@ nav {
 .modal__contact {
     background-color: #242424;
     color: white;
+    transform: translateX(110%);
 }
 
 .modal__title {
@@ -374,7 +383,7 @@ nav {
     left: 0;
     width: 100%;
     height: 100%;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     z-index: -1;
@@ -533,4 +542,3 @@ footer {
 .footer__social--link,
 .footer__copyright {
     color: white;
-}
