@@ -563,7 +563,7 @@ animation: spinner 750ms infinite linear;
 /* FOOTER */
 
 footer {
-    background-color: #242424;
+    background-color: #000000;
     display: flex;
     padding: 6% 0;
 }
