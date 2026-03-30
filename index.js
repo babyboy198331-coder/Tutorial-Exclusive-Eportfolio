@@ -30,13 +30,9 @@ function contact(event) {
     });
 }
     loading.classList += " modal__overlay--visible"
-    setTimeout(() => {
-  
-    console.log('this worked1')
-    }, 500);
+    
  
- 
-    let isModalOpen = false;
+  let isModalOpen = false;
 function toggleModal() {
 isModalOpen = !isModalOpen;
 if (isModalOpen) {
