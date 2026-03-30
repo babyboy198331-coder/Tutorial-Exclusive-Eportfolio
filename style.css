@@ -145,10 +145,14 @@ nav,
  .dark-theme .section__title,
 .dark-theme .section__sub-title,
 .dark-theme .nav__link--anchor,
-.dark-theme .fa-solid fa-circle-half-stroke,
+.dark-theme .fa-circle-half-stroke,
 .dark-theme .header__para
  {
 color: white;
+}
+
+.dark-theme section {
+    background-color: #242424;
 }
 
 /* landing-page */
