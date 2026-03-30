@@ -155,6 +155,14 @@ color: white;
     background-color: #242424;
 }
 
+.dark-theme .scroll__icon {
+    border-color: white;
+}
+
+.dark-theme .scroll__icon:after {
+    background-color: white;
+}
+
 /* landing-page */
 
 #landing-page {
