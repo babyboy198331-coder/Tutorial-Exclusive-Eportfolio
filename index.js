@@ -16,7 +16,7 @@ function contact(event) {
       'service_ippb0pp',
       'template_8dp2wge',
       event.target,
-      'user_cbM7V2aKMo5f0HbPc'
+      'cbM7V2aKMo5f0HbPc'
     )
     .then(() => {
       loading.classList.remove('modal__overlay--visible');
