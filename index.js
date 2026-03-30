@@ -34,4 +34,4 @@ function contact(event) {
   
     console.log('this worked1')
     }, 500);
-  }
+  
