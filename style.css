@@ -152,7 +152,7 @@ color: white;
 }
 
 .dark-theme section {
-    background-color: #1a1a1a;
+    background-color: #000000;
 }
 
 .dark-theme #personal-logo {
@@ -169,7 +169,7 @@ color: white;
 
 .dark-theme .mail__btn {
     background-color: white;
-    color: #1a1a1a;
+    color: #000000;
 }
 
 /* landing-page */
