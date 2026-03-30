@@ -155,6 +155,10 @@ color: white;
     background-color: #242424;
 }
 
+.dark-theme #personal-logo {
+    filter: none;
+}
+
 .dark-theme .scroll__icon {
     border-color: white;
 }
