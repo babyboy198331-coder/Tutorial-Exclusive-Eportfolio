@@ -34,7 +34,11 @@ function contact(event) {
   
     console.log('this worked1')
     }, 500);
-  
+ 
+ 
+    let isModalOpen = false;
 function toggleModal() {
-
+  isModalOpen = !isModalOpen;
+// toggle modal
+document.body.classList += " modal--open";
 }
