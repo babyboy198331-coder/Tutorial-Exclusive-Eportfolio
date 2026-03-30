@@ -34,7 +34,7 @@
     link__hover-effect
     link__hover-effect--black">Projects</a>
 </li>
-<li class="nav__link click">
+<li class="nav__link click" onclick="toggleModal()">
     <a href="#" class="
     nav__link--anchor
     link__hover-effect
@@ -54,7 +54,7 @@
 <p class="header__para">
  I'm a <b class="blue">Frontend Software Engineer</b> Apprentice with a passion to build web applications that create a great user Experience. 
  <br>
-Here's a bit <b class="blue">about me.</b>
+Here's a bit <b class="blue click" onclick="toggleModal()">about me.</b>
 </p>
 <div class="social__list">
     <a href="https://www.linkedin.com/in/john-b-1182183ba/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BjlUJRY17SeubkCPaC9c%2BEA%3D%3D" target="_blank" class="social__link click">
@@ -103,7 +103,7 @@ Here's a bit <b class="blue">about me.</b>
 </div>
     </div>
     <div class="modal__half modal__contact">
-         <i class="fa-regular fa-circle-xmark modal__exit click"></i>
+         <i class="fa-regular fa-circle-xmark modal__exit click" onclick="toggleModal()"></i>
         <h3 class="modal__title modal__title--contact">
          Lets have a chat!
         </h3>
