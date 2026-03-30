@@ -141,6 +141,16 @@ nav,
     transition: all 400ms;
 }
 
+.dark-theme .title,
+ .dark-theme .section__title,
+.dark-theme .section__sub-title,
+.dark-theme .nav__link--anchor,
+.dark-theme .fa-solid fa-circle-half-stroke,
+.dark-theme .header__para
+ {
+color: white;
+}
+
 /* landing-page */
 
 #landing-page {
