@@ -167,6 +167,11 @@ color: white;
     background-color: white;
 }
 
+.dark-theme .mail__btn {
+    background-color: white;
+    color: #242424;
+}
+
 /* landing-page */
 
 #landing-page {
