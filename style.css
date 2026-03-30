@@ -437,7 +437,7 @@ nav {
 }
 
 .modal__overlay--loading {
-    background-color: black;
+    background-color: #000000;
     font-size: 80px;
 }
 
