@@ -9,10 +9,12 @@ function moveBackground(event) {
   const shapes = document.querySelectorAll(".shape");
   const x = event.clientX * scalefactor;
   const y = event.clientY * scalefactor;
-const scalefactor = 1 / 20;
+
 
   for (let i = 0; i < shapes.length; ++i){
-    shapes(i).style.transform = 'translate($(x)px, $(y)px)'
+    const isOdd = i % 2 !== 0;
+    const BoolInt = isOdd ? -1 : 1;
+    shapes(i).style.transform = 'translate($(x * boolInt)px, $(y * boolInt)px)'
   }
 }
 
