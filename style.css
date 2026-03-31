@@ -25,14 +25,14 @@ button {
 }
 
 section {
-    background-color: rgb(245,245,245);
+    background-color: #ffffff;
     transition: all 300ms ease;
 }
 
 input, textarea {
     width: 100%;
     background-color: #000000;
-    color: #fff;
+    color: #ffffff;
     outline: none;
     border: 3px solid #c0c4cc;
     border-top: top;
@@ -114,7 +114,7 @@ line-height: 1;
 }
 
 .link__hover-effect--white::after {
-    background-color: #fff
+    background-color: #ffffff;
 }
 
 .link__hover-effect--black::after {
@@ -149,7 +149,7 @@ nav,
 .dark-theme .fa-circle-half-stroke,
 .dark-theme .header__para
  {
-color: white;
+color: #ffffff;
 }
 
 .dark-theme section {
@@ -160,18 +160,18 @@ color: white;
     filter: none;
 }
 
-.dark-theme .scroll__icon {
-    border-color: white;
+.dark-theme .scroll__icon { 
+    border-color: #ffffff;
 }
 
 .dark-theme .scroll__icon:after,
 .dark-theme .link__hover-effect--black::after {
-    background-color: white;
+    background-color: #ffffff;
 
 }
 
 .dark-theme .mail__btn {
-    background-color: white;
+    background-color: #ffffff;
     color: #000000;
 }
 
@@ -204,7 +204,7 @@ color: white;
 
 .social__link {
     background-color:blue;
-    color: white;
+    color: #ffffff;
     padding: 6px;
     width: 32px;
     height: 32px;
@@ -223,7 +223,7 @@ color: white;
     border-radius: 50%;
     border: none;
     background-color: blue;
-    color: white;
+    color: #ffffff;
     position: absolute;
     bottom: 32px;
     right: 40px;
@@ -383,7 +383,7 @@ nav {
 
 .modal__contact {
     background-color: #000000;
-    color: white;
+    color: #ffffff;
     transform: translateX(110%);
 }
 
@@ -408,7 +408,7 @@ nav {
 .form__submit {
     background-color: blue;
     border: 2px solid blue;
-    color: white;
+    color: #ffffff;
     font-weight: 700;
     width: 100%;
     max-width: 240px;
@@ -418,7 +418,7 @@ nav {
 }
 
 .form__submit:hover {
-    border-color: #fff;
+    border-color: #ffffff;
     background-color: transparent;
 }
 
@@ -445,7 +445,7 @@ nav {
 }
 
 .modal__overlay--success {
-    background-color: #4bb543;
+    background-color: blue;
     font-size: 40px;
     font-weight: 700;
     text-align: center;
@@ -475,7 +475,7 @@ animation: spinner 750ms infinite linear;
     position: absolute;
     top: 30px;
     right: 40px;
-    color: white;
+    color: #ffffff;
     font-size: 36px;
     z-index: 100;
 }
@@ -519,7 +519,7 @@ animation: spinner 750ms infinite linear;
     transform: translateY(-50%);
     opacity: 0;
     transition: opacity 300ms, transform 450ms ease;
-    color: white;
+    color: #ffffff;
     max-width: 550px;
 }
 .project__wrapper:hover .project__img {
@@ -554,7 +554,7 @@ animation: spinner 750ms infinite linear;
     margin-top: 8px;
 }
 .project__description--link {
-    color: white;
+    color: #ffffff;
     font-size: 20px;
     margin-right: 16px;
 }
@@ -592,5 +592,5 @@ footer {
 
 .footer__social--link,
 .footer__copyright {
-    color: white;
+    color: #ffffff;
 }
