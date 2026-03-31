@@ -6,17 +6,18 @@ let contrastToggle = false;
 const scalefactor = 1 / 20;
 
 function moveBackground(event) {
-  const shapes = document.querySelectorAll(".shape");
-  const x = event.clientX * scalefactor;
-  const y = event.clientY * scalefactor;
-
-
-  for (let i = 0; i < shapes.length; ++i){
-    const isOdd = i % 2 !== 0;
-    const BoolInt = isOdd ? -1 : 1;
-    shapes(i).style.transform = 'translate($(x * boolInt)px, $(y * boolInt)px)'
-  }
+const shapes = document.querySelectorAll(".shape");
+const x = event.clientX * scalefactor;
+const y = event.clientY * scalefactor;
+for (let i = 0; i < shapes.length; i++) {
+const isOdd = i % 2 !== 0;
+const BoolInt = isOdd ? -1 : 1;
+shapes[i].style.transform = translate(${x  BoolInt}px, ${y  BoolInt}px);
 }
+}
+
+
+
 
 
 function toggleContrast() {
