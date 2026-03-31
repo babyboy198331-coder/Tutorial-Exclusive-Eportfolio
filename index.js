@@ -12,7 +12,7 @@ const y = event.clientY * scalefactor;
 for (let i = 0; i < shapes.length; i++) {
 const isOdd = i % 2 !== 0;
 const BoolInt = isOdd ? -1 : 1;
-shapes[i].style.transform = translate(${x, BoolInt}, ${y, BoolInt});
+shapes[i].style.transform = translate(${x, BoolInt}px, ${y, BoolInt}px);
 }
 }
 
